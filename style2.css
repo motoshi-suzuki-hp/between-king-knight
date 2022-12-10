@@ -30,7 +30,9 @@ html {
     width: fit-content;
     padding: 10px 20px;
     border-radius: 5px;
-    float: right;
+    position: absolute;
+    right: 7vw;
+    top: 85vh;
 }
 
 .button a {
@@ -40,7 +42,7 @@ html {
 
 #TebanMessage {
     position:absolute;
-    right: 5vw;
+    right: 1vw;
     transform: translateX(-50%);
     bottom:1vh;
     font-size: 3vw;
