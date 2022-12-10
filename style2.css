@@ -55,7 +55,7 @@ html {
     right: -50%;
     transform: translateX(-50%);
     bottom:0vh;
-    right: -14vw;
+    right: -13vw;
     font-size: 3vw;
     color: #FFF;
     font-weight: 700;
@@ -179,7 +179,7 @@ html {
   .timer__start-bttn, 
   .timer__reset-bttn {
       width: 10vw;
-      height: 8vh;
+      height: 4vh;
       display: block;
       color: #020202;
       min-height: 50px;
@@ -261,7 +261,7 @@ html {
   
   @media only screen and (orientation: portrait) and (min-width: 400px) {
       .player__tile {
-          height: 8vh;
+          height: 4vh;
       }
       .player__digits {
           font-size: 6rem;
