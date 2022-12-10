@@ -498,7 +498,7 @@ var showBoard = function(p){
 	var TebanMessage_ref = document.getElementById("TebanMessage-ref");
 	
 	(p.turn) ? TebanMessage.innerHTML = "Black<br>" : TebanMessage.innerHTML = "White<br>";
-	(p.turn) ? TebanMessage_ref.innerHTML = "Black<br>" : TebanMessage_ref.innerHTML = "White<br>";
+	// (p.turn) ? TebanMessage_ref.innerHTML = "Black<br>" : TebanMessage_ref.innerHTML = "White<br>";
 };
 
 

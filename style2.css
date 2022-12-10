@@ -28,7 +28,7 @@ html {
 .button {
     background-color: white;
     width: fit-content;
-    height: 5vh;
+    height: auto;
     border-radius: 5px;
     position: absolute;
     right: 3vw;
@@ -54,7 +54,8 @@ html {
     position:absolute;
     right: -50%;
     transform: translateX(-50%);
-    bottom:1vh;
+    bottom:0vh;
+    right: -14vw;
     font-size: 3vw;
     color: #FFF;
     font-weight: 700;
@@ -260,7 +261,7 @@ html {
   
   @media only screen and (orientation: portrait) and (min-width: 400px) {
       .player__tile {
-          height: 400px;
+          height: 8vh;
       }
       .player__digits {
           font-size: 6rem;
