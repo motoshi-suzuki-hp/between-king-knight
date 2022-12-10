@@ -106,7 +106,7 @@ const startTimer = () => {
                 // p22time.minutes = parseInt(p22time.getMinutes('min22'), 10);
                 if (p2sec === 60) {
                     p12time.minutes = p12time.minutes - 1;
-                    p22time.minutes = p22time.minutes - 1;
+                    // p22time.minutes = p22time.minutes - 1;
                 }
                 p2sec = p2sec - 1;
                 timeWarning(currentPlayer, p12time.minutes, p2sec);
