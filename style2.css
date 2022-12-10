@@ -31,9 +31,8 @@ html {
     height: 5vh;
     border-radius: 5px;
     position: absolute;
-    right: 7vw;
-    top: 85vh;
-    display: block;
+    right: 3vw;
+    bottom: 1vh;
 }
 
 .button a {
@@ -42,11 +41,18 @@ html {
     color: black;
     font-weight: bold;
     padding: 10px 20px;
+    display: block;
+}
+
+.option {
+    position: absolute;
+    right: -11vw;
+    top: 35%;
 }
 
 #TebanMessage {
     position:absolute;
-    right: 1vw;
+    right: -50%;
     transform: translateX(-50%);
     bottom:1vh;
     font-size: 3vw;
@@ -298,6 +304,6 @@ html {
   }
 
 
-.reflect-xy {
-    transform: scale(-1, -1);
+.rotate {
+    transform:rotate(90deg);
 }
