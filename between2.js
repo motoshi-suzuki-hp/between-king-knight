@@ -466,7 +466,7 @@ var showBoard = function(p){
 	for(var file = 1; file <= 7; file++){
 		var c = piece_board[p.Board[rank][file]].cloneNode(true); //駒画像の要素を複製
 		c.style.left = 5 + ((file - 1) * 11.2) + "vw";         //位置を調節
-		c.style.top = 0 + ((rank - 1) * 14) + "vh"; 
+		c.style.top = 0 + ((rank - 1) * 14.2) + "vh"; 
 		c.removeAttribute("id");
 		fragment.appendChild(c);
 
@@ -506,8 +506,8 @@ var showBoard = function(p){
 var SelectSelfKoma = function(p,pos){  
 	
 	if(p.turn){
-		slb.style.left =  5 + ((pos.file - 1) * 12.85) + "vw";
-		slb.style.top = 0 + ((pos.rank - 1) * 16) + "vh";
+		slb.style.left =  5 + ((pos.file - 1) * 11.21) + "vw";
+		slb.style.top = 0 + ((pos.rank - 1) * 14.2) + "vh";
 		slb.onclick = function(){
 			selectedFlgB = false; 
 			slb.parentElement.removeChild(slb);
@@ -516,8 +516,8 @@ var SelectSelfKoma = function(p,pos){
 	}
 
 	else{
-		slw.style.left = 5 + ((pos.file - 1) * 12.85) + "vw";
-		slw.style.top = 0 + ((pos.rank - 1) * 16)+ "vh";
+		slw.style.left = 5 + ((pos.file - 1) * 11.21) + "vw";
+		slw.style.top = 0 + ((pos.rank - 1) * 14.2)+ "vh";
 		slw.onclick = function(){
 			selectedFlgB = false; 
 			slw.parentElement.removeChild(slw);
