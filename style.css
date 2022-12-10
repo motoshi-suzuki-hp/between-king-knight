@@ -27,6 +27,9 @@ html {
     width: fit-content;
     border-radius: 5px;
     float: right;
+    position: absolute;
+    right: 3vw;
+    bottom: 0vh;
 }
 
 .button a {
@@ -40,9 +43,9 @@ html {
 
 #TebanMessage {
     position:absolute;
-    right: 5vw;
+    right: 15vw;
     transform: translateX(-50%);
-    bottom:1vh;
+    bottom:4vh;
     font-size: 3vw;
     color: #FFF;
     font-weight: 700;
@@ -51,7 +54,7 @@ html {
 
 #TebanMessage-ref {
     position:absolute;
-    right: 5vw;
+    right: 15vw;
     transform: translateX(-50%);
     bottom:1vh;
     font-size: 3vw;
@@ -215,6 +218,8 @@ html {
   }
   
   @media only screen and (orientation: landscape) and (max-width: 850px) {
+
+
       .player, .player-ref {
           max-width: 610px;
           -webkit-box-orient: horizontal;
@@ -248,7 +253,7 @@ html {
   
   @media only screen and (orientation: portrait) and (min-width: 400px) {
       .player__tile {
-          height: 400px;
+          height: 8vh;
       }
       .player__digits {
           font-size: 6rem;
@@ -258,6 +263,8 @@ html {
   @media only screen and (min-width: 850px) {
     .timer-content {
         display: flex;
+        margin-left: 3vw;
+
     }
       .player, .player-ref {
           margin: 0 0;
