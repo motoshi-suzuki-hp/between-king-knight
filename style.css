@@ -22,6 +22,18 @@ html {
     border: 1px solid #000;
 }  
 
+.button {
+    background-color: white;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 5px;
+    float: right;
+}
+
+.button a {
+    color: black;
+    font-weight: bold;
+}
 
 #TebanMessage {
     position:absolute;

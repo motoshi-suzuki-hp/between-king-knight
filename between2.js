@@ -465,8 +465,8 @@ var showBoard = function(p){
 	for(var rank = 1; rank <= 7; rank++){
 	for(var file = 1; file <= 7; file++){
 		var c = piece_board[p.Board[rank][file]].cloneNode(true); //駒画像の要素を複製
-		c.style.left = 5 + ((file - 1) * 12.9) + "vw";         //位置を調節
-		c.style.top = 0 + ((rank - 1) * 16) + "vh"; 
+		c.style.left = 5 + ((file - 1) * 11.2) + "vw";         //位置を調節
+		c.style.top = 0 + ((rank - 1) * 14) + "vh"; 
 		c.removeAttribute("id");
 		fragment.appendChild(c);
 

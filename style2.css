@@ -10,7 +10,7 @@ html {
 .grid {
     background-color: #ffffff;
 
-    width: 90vw;
+    width: 70vw;
     height: 100%;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
@@ -25,6 +25,18 @@ html {
     border: 1px solid #000;
 }  
 
+.button {
+    background-color: white;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 5px;
+    float: right;
+}
+
+.button a {
+    color: black;
+    font-weight: bold;
+}
 
 #TebanMessage {
     position:absolute;
